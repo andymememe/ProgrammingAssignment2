@@ -8,9 +8,9 @@
 ## 
 ## Return :
 ##     list with function =>
-##         set(m)    : Set matrix
+##         set(m)    : Set matrix, m is a matrix
 ##         get()     : Get matrix
-##         setinv(i) : Set inverse matrix
+##         setinv(i) : Set inverse matrix, i is a matrix(inversed)
 ##         getinv()  : Get inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
